@@ -15,7 +15,10 @@ Dichiariamo chi ha vinto.
 
 ## Esecuzione
 **Palindromo<br>**
-1. ???
+1. prompt parola
+2. funzione inversione parola
+3. controllo parole
+4. output risultato
 
 <hr>
 

@@ -1,5 +1,36 @@
 // Palindromo
 
+const parola = prompt('Inserisci una parola');
+
+if (palindromo(parola)){ 
+  
+  document.getElementById('outputPal').innerHTML = `La parola ${parola} è un palindromo`;
+
+}else{
+
+  document.getElementById('outputPal').innerHTML = `La parola ${parola} non è un palindromo`;
+}  
+
+// Function
+function palindromo(parola) {
+    
+  let reverseParola = '';
+  
+  for (let i = parola.length - 1; i >= 0; i--) {
+  
+    reverseParola += parola[i];
+  }
+  
+  if (reverseParola === parola) {
+  
+    return true;
+  
+  }else{
+  
+    return false;
+  }
+}
+
 
 /*----------------------------------------------------------*/
 
