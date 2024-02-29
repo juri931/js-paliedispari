@@ -31,6 +31,12 @@ function palindromo(parola) {
   }
 }
 
+// METODO EVOLUTO:
+console.log(
+  parola.split('').reverse().join('')
+);
+
+
 
 /*----------------------------------------------------------*/
 
