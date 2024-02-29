@@ -31,12 +31,10 @@ function palindromo(parola) {
   }
 }
 
-// METODO EVOLUTO:
+// METODO EVOLUTO che trasforma la stringa in un array, divide le lettere singolarmente, le inverte e le riunisce
 console.log(
   parola.split('').reverse().join('')
 );
-
-
 
 /*----------------------------------------------------------*/
 
