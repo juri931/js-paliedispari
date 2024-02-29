@@ -1,6 +1,6 @@
 // Palindromo
 
-const parola = prompt('Inserisci una parola');
+const parola = prompt('Inserisci una parola').toLowerCase();
 
 if (palindromo(parola)){ 
   
